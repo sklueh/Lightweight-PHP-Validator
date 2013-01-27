@@ -44,8 +44,8 @@ class ValidatorRules
 	}
 	
 	/**
-	 * @ErrorMessage[lang=de] Bitte geben Sie eine Zahl an, die kleiner ist als %d.
-	 * @ErrorMessage[lang=en] Please enter a number less than %d.
+	 * @ErrorMessage[lang=de] Bitte geben Sie eine Zahl an, die kleiner ist als %.2f.
+	 * @ErrorMessage[lang=en] Please enter a number less than %.2f.
 	 */
 	public function check_less_than($mValue, $aParams)
 	{
@@ -53,8 +53,8 @@ class ValidatorRules
 	}
 	
 	/**
-	 * @ErrorMessage[lang=de] Bitte geben Sie eine Zahl an, die gr&ouml;&szlig;er ist als %d.
-	 * @ErrorMessage[lang=en] Please enter a number greater than %d.
+	 * @ErrorMessage[lang=de] Bitte geben Sie eine Zahl an, die gr&ouml;&szlig;er ist als %.2f.
+	 * @ErrorMessage[lang=en] Please enter a number greater than %.2f.
 	 */
 	public function check_greater_than($mValue, $aParams)
 	{
