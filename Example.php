@@ -24,7 +24,7 @@ Array
 (
     [0] => Please enter a valid URL.
     [1] => The input must be at least 17 characters in length.
-    [2] => Please enter a number greater than 39.
+    [2] => Please enter a number greater than 39.90.
 )
 */
 
@@ -50,7 +50,7 @@ Array
 (
     [0] => Bitte geben Sie eine gültige URL ein.
     [1] => Die Eingabe muss mindestens 17 Zeichen lang sein.
-    [2] => Bitte geben Sie eine Zahl an, die größer ist als 39.
+    [2] => Bitte geben Sie eine Zahl an, die größer ist als 39.90.
 )
 
 */
